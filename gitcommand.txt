@@ -1,0 +1,13 @@
+#this is only first time to initialize
+git init
+#this will add all files
+git add *
+#this will commit but only locally to this computer
+git commit -m "my commit"
+#this is only one time to say where remote (web) repository is
+git remote add origin https://github.com/Gdobkin/Test.git
+#this actually moves it to the remote repository
+git push -u origin master
+#after make changes to some files run these 2 commands
+git commit -a -m"my changes"
+git push
